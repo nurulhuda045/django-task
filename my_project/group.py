@@ -1,5 +1,4 @@
 import os
-import logging
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'my_project.settings')
 
@@ -7,7 +6,6 @@ import django
 
 django.setup()
 from django.contrib.auth.models import Group
-from django.contrib.auth.models import Permission
 
 
 GROUPS = ['admin', 'teacher', 'student']
